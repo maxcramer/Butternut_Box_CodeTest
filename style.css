@@ -1,0 +1,71 @@
+.full__screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F4F3F2;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__box {
+  background-color: #1E5D8A;
+  width: 90vh;
+  height: 50vh;
+  z-index: 1;
+  background-image: url("./images/blueShnacks.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 52rem;
+  background-position-x: -2rem;
+  background-position-y: -1rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 65px;
+  margin-top: -109px;
+  background-image: url("./images/titleSparks.png");
+  background-repeat: no-repeat;
+  background-size: 13rem;
+  background-position-x: center;
+  z-index: 2;
+}
+
+h3 {
+  padding: 4px;
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+}
+
+.heading__underline {
+  text-decoration: underline;
+  text-decoration-color: gold;
+  text-underline-position: under;
+}
+
+.banner {
+  background-image: url(./images/banner.png);
+  background-repeat: no-repeat;
+  z-index: 3;
+  height: 10rem;
+  background-position-x: right;
+  background-position-y: top;
+  margin-top: -27px;
+  margin-right: -29px;
+}
+
+.option {
+  height: 190px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.white__boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
