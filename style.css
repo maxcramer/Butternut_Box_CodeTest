@@ -165,7 +165,22 @@ h3 {
   transform: rotate(45deg);
 }
 
-.inner__circle__tick {
+#inner__circle__tick__one {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 11px;
+  margin-left: 10px;
+  background-image: url(./images/tick.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position-x: 9px;
+  background-position-y: 14px;
+  transform: rotate(-35deg);
+}
+
+#inner__circle__tick__two {
   width: 60px;
   height: 60px;
   border-radius: 100%;
