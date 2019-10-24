@@ -135,6 +135,7 @@ h3 {
   height: 187px;
   background-position-x: 1rem;
   background-position-y: 1rem;
+  border-radius: 5px;
 }
 
 .option_two_img {
@@ -146,6 +147,7 @@ h3 {
   height: 187px;
   background-position-x: 1rem;
   background-position-y: 1rem;
+  border-radius: 5px;
 }
 
 .moreinfo::before {
@@ -153,7 +155,7 @@ h3 {
 }
 
 
-.outer__circle__tick {
+.outter__circle__tick {
   width: 80px;
   height: 80px;
   border: 3px solid #1E5D8A;
@@ -199,7 +201,7 @@ h3 {
 
 }
 
-.outer__circle__tick:hover {
+.outter__circle__tick:hover {
   animation: pulse 2s infinite;
 }
 
