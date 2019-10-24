@@ -198,3 +198,17 @@ h3 {
   cursor: pointer;
 
 }
+
+.outer__circle__tick:hover {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px #4FBAD6;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
