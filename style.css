@@ -123,6 +123,7 @@ h3 {
   background-repeat: no-repeat;
   text-decoration: underline;
   text-underline-position: under;
+  cursor: pointer;
 }
 
 .option_one_img {
@@ -178,6 +179,7 @@ h3 {
   background-position-x: 9px;
   background-position-y: 14px;
   transform: rotate(-35deg);
+  cursor: pointer;
 }
 
 #inner__circle__tick__two {
@@ -193,4 +195,6 @@ h3 {
   background-position-x: 9px;
   background-position-y: 14px;
   transform: rotate(-35deg);
+  cursor: pointer;
+
 }
